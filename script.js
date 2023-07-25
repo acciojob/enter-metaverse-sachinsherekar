@@ -9,5 +9,5 @@ let enterBtn = document.getElementById('enterBtn');
 // Add event listener to the button
 enterBtn.addEventListener('click', function() {
   // Change the text of the p tag
-  status.innerText = 'Entered Metaverse';
+  status.innerHTML = `<h1>Entered Metaverse</h1>`;
 });
